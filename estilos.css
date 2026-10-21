@@ -416,3 +416,13 @@ details[open]>*:not(summary){animation:aparece .25s ease}
 .redes a{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:#fff;border:1px solid var(--borde);color:var(--marino);box-shadow:var(--sombra);transition:background .2s,color .2s,border-color .2s,transform .2s}
 .redes a:hover,.redes a:focus-visible{background:var(--marino);border-color:var(--marino);color:#fff;transform:translateY(-2px)}
 .redes svg{display:block;width:20px;height:20px}
+/* Íconos oficiales del pie */
+.pie .redes a.red-fb{background:#0866FF;border-color:#0866FF;padding:0}
+.pie .redes a.red-fb svg{width:40px;height:40px}
+.pie .redes a.red-wa{background:#25D366;border-color:#25D366}
+.pie .redes a.red-wa svg{width:22px;height:22px}
+.pie .redes a.red-fb:hover,.pie .redes a.red-fb:focus-visible,.pie .redes a.red-wa:hover,.pie .redes a.red-wa:focus-visible{filter:brightness(1.1)}
+
+/* Eslogan oficial */
+.hero__eslogan{font-size:clamp(1.15rem,2.2vw,1.45rem);font-weight:700;font-style:italic;color:var(--marino);margin:-.2rem 0 .9rem;padding-left:.75rem;border-left:4px solid var(--medio-texto);letter-spacing:.01em}
+.pie__eslogan{font-style:italic;font-weight:600;margin:-.3rem 0 .6rem;opacity:.95}
